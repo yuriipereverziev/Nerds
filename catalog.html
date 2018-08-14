@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nerds</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="main-header">
+		<h1>Магазин готовых шаблонов</h1>
+		<nav class="main-navigation">
+			<a class="main-heder-logo"><img src="img/nerds-logo.svg" alt="Nerds-logo" width="160" height="65">
+			</a>
+			<ul class="site-navigation">
+				<li><a href="#">Студия</a></li>
+				<li><a href="#">Клиенты</a></li>
+				<li><a href="#">Магазин</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+			<ul class="user-navigation">
+				<li class="user-backet"><a class="user-backet" href="backet.html">Корзина</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="container">
+		<section>
+			<h2 class="visually-hidden">Фильтр товаров</h2>
+				<form class="filter" action="https://echo.htmlacademy.ru" method="get">
+					<fieldset>
+						<legend>Стоимость:</legend>
+
+						<ul>
+							<!-- здесь будет reng (Ползунок) -->
+						</ul>
+					</fieldset>
+				
+					<fieldset>
+						<legend>Сетка:</legend>
+
+						<ul>
+							<li class="filter-option">
+								<input class="visually-hidden filter-input filter-input-radio" type="radio" name="position-item"  value="adaptive" id="filter-adaptive" checked>
+								<label for="filter-adaptive">Адаптивная</label>
+							</li>
+							<li class="filter-option">
+								<input class="visually-hidden filter-input filter-input-radio" type="radio"  name="position-item" value="fixed" id="filter-fixed" >
+								<label for="filter-fixed">Фиксированная</label>
+							</li>
+							<li class="filter-option">
+								<input class="visually-hidden filter-input filter-input-radio" type="radio"  name="position-item" value="rubber" id="filter-rubber">
+								<label for="filter-rubber">Резиновая</label>
+							</li>
+						</ul>
+					</fieldset>
+
+					<fieldset>
+						<legend>Особенности:</legend>
+						<ul>
+							<li class="filter-option">
+								<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="filter-slider" checked>
+								<label for="filter-slider">Слайдер</label>
+							</li>
+							<li class="filter-option">
+								<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="advantage-block" id="filter-advantage-block">
+								<label for="filter-advantage-block">Блок преимуществ</label>
+							</li>
+							<li class="filter-option">
+								<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="filter-news" checked>
+								<label for="filter-news">Новости</label>
+							</li>
+							<li class="filter-option">
+								<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="galery" id="filter-galery">
+								<label for="filter-galery">Галерея</label>
+							</li>
+							<li class="filter-option">
+								<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="backet" id="filter-backet">
+								<label for="filter-backet">Галерея</label>
+							</li>
+						</ul>
+					</fieldset>
+					<button class="button filter-button" type="submit">Показать</button>
+				</form>
+		</section>
+		<section class="catalog">
+			<h2 class="visually-hidden">Каталог товаров</h2>
+			<ul>
+				<b>Сортировать:</b>
+				<li>По цене</li>
+				<li>По типу</li>
+				<li>По названию</li>
+			</ul>
+			<ul class="catalog-item">
+				<li>
+					<img src="img/produkt-1.png" alt="Sedona" width="360" height="616">
+				</li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</section>
+		
+
+
+
+
+
+	<section class="map">
+			<h2 class="visually-hidden">Как до нас добраться?</h2>
+			<p>
+				<img src="img/map.jpg" width="1440" height="416" alt="Офис компании по адресу ул.Большая Конюшенная 19/8, Санкт Петербург">
+			</p>
+		</section>
+	</main>
+
+	<footer class="main-footer">
+		<div class="footer-social">
+			<b>Давайте дружить это выгодно!</b>
+			<p>Скидка 10% для друзей из социальных сетей.</p>
+			<ul>
+				<li class="social-button"><a href="#"></a>Vkontakte</li>
+				<li class="social-button"><a href="#"></a>Facebook</li>
+				<li class="social-button"><a href="#"></a>Instagram</li>
+			</ul>
+		</div>
+	</footer>
+	<section class="modal modal-massage">
+		<h2>Напишите нам</h2>
+		<form action="https://echo.htmlacademy.ru" method="post">
+			<p>
+				<label class="visually-hidden" for="user-name">Ваше имя:</label>
+				<input class="name-icon-user" id="user-name" name="name" type="text" placeholder="Имя Фамилия">
+			</p>
+			<p>
+				<label for="user-email">Ваш e-mail:</label>
+				<input class="email-icon-user" id="user-email" name="email" type="text" placeholder="Ваш e-mail:">
+			</p>
+			<p>
+				<label for="user-text">Текст письма:</label>
+				<input class="text-icon-user" id="user-text" name="text" type="text" placeholder="В свободной форме">
+			</p>
+			<button class="button" type="submit">
+				ОТПРАВИТЬ
+			</button>
+		</form>
+	</section>
+
+	
+</body>	
+</html>

@@ -3,34 +3,137 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Nerds</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header class="main-header">
-		<div class="container">
-			<div class="main-navigation">
-				<ul>
-					<li>
-						<a href="#">студия</a>
-					</li>
-					<li>
-						<a href="#">клиенты</a>
-					</li>
-					<li>
-						<a href="#">магазин</a>
-					</li>
-					<li>
-						<a href="#">контакты</a>
-					</li>
-					<li>
-						<a href="#">корзина</a>
-					</li>
-				</ul>
-				
-			</div>
+		<nav class="main-navigation">
+			<a class="main-heder-logo"><img src="img/nerds-logo.svg" alt="Nerds-logo" width="160" height="65">
+			</a>
+			<ul class="site-navigation">
+				<li><a href="#">Студия</a></li>
+				<li><a href="#">Клиенты</a></li>
+				<li><a href="#">Магазин</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+			<ul class="user-navigation">
+				<li class="user-backet"><a class="user-backet" href="backet.html">Корзина</a></li>
+			</ul>
+		</nav>
+		<section class="fuatures">
+			<h1 class="visually-hidden">Нердс</h1>
+			<h2 class="fuatures-item">Долго,дорого,скрупулезно.</h2>
+			<p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+			<a href="#" class="button">Узнать больше</a>
+
+			<!-- здесь слайдер и картинка-->
 			
-		</div>
-		
+		</section>
+
 	</header>
+	<main  class="container">
+		<section>
+			<h2 class="services">Услуги</h2>
+			<ul class="services-list">
+				<li class="services-item">
+					<p class="services-item-img"><a href="#"><img src="img/services-1.jpg" alt="Веб-сайты" height="146" width="300"></a></p>
+					<h2>Веб-сайты</h2>
+					<p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+					<a class="button" href="#">Заказать</a>
+				</li>
+
+				<li class="services-item">
+					<p class="services-item-img"><a href="#"><img src="img/services-2.jpg" alt="Приложения" height="146" width="300"></a></p>
+					<h2>Приложения</h2>
+					<p>Покорите топ-10 приложений в AppStore и Google Play</p>
+					<a class="button" href="#">Заказать</a>
+				</li>
+				<li class="services-item">
+					<p class="services-item-img"><a href="#"><img src="img/services-3.jpg" alt="Презентации" height="146" width="300"></a></p>
+					<h2>Презентации</h2>
+					<p>Вы даже не подозреваете, насколько вы изумительны!</p>
+					<a class="button" href="#">Заказать</a>
+				</li>
+			</ul>
+		</section>
+		<section class="description">
+			<h2 class="visually-hidden">Что мы умеем?</h2>
+			<p>Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
+			<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+			<ul class="order-list">
+				Выполняем заказы на разработку:
+				<li>Веб-сайтов любой сложности</li>
+				<li>Мобильных приложений для iOS и Android</li>
+				<li>Слайдшоу и видео для корпоративных презентаций</li>
+			</ul>
+		</section>
+		<section class="guarantees">
+			<h2 class="visually-hidden">Гарантии</h2>
+			<img src="main-nerds.jpg" alt="Nerds">
+			<p>с 2004 года Любим точность во всем:</p>
+			<table >
+				<tr>
+					<th>146%</th>
+					<th>100%</th>
+					<th>50%</th>
+				</tr>
+				<tr>
+					<td>Уровень самоотдачи</td>
+					<td>Соблюдение сроков</td>
+					<td>Минимальная предоплата</td>
+				</tr>
+			</table>
+		</section>
+		<section class="partners">
+			<h2 class="visually-hidden">Партнеры</h2>
+			<ul class="partners-list">
+				<li class="partners-item"><img src="img/partner-1.png" alt="html-academy" width="260" height="180"></li>
+				<li class="partners-item"><img src="img/partner-2.png" alt="borodinsky" width="260" height="180"></li>
+				<li class="partners-item"><img src="img/partner-3.png" alt="pink" width="260" height="180"></li>
+				<li class="partners-item"><img src="img/partner-4.png" alt="mishka" width="260" height="180"></li>
+			</ul>
+		</section>
+		<section class="map">
+			<h2 class="visually-hidden">Как до нас добраться?</h2>
+			<p>
+				<img src="img/map.jpg" width="1440" height="416" alt="Офис компании по адресу ул.Большая Конюшенная 19/8, Санкт Петербург">
+			</p>
+		</section>
+	</main>
+	<footer class="main-footer">
+		<div class="footer-social">
+			<b>Давайте дружить это выгодно!</b>
+			<p>Скидка 10% для друзей из социальных сетей.</p>
+			<ul>
+				<li class="social-button"><a href="#"></a>Vkontakte</li>
+				<li class="social-button"><a href="#"></a>Facebook</li>
+				<li class="social-button"><a href="#"></a>Instagram</li>
+			</ul>
+		</div>
+	</footer>
+	<section class="modal modal-massage">
+		<h2>Напишите нам</h2>
+		<form action="https://echo.htmlacademy.ru" method="post">
+			<p>
+				<label class="visually-hidden" for="user-name">Ваше имя:</label>
+				<input class="name-icon-user" id="user-name" name="name" type="text" placeholder="Имя Фамилия">
+			</p>
+			<p>
+				<label for="user-email">Ваш e-mail:</label>
+				<input class="email-icon-user" id="user-email" name="email" type="text" placeholder="Ваш e-mail:">
+			</p>
+			<p>
+				<label for="user-text">Текст письма:</label>
+				<input class="text-icon-user" id="user-text" name="text" type="text" placeholder="В свободной форме">
+			</p>
+			<button class="button" type="submit">
+				ОТПРАВИТЬ
+			</button>
+
+		</form>
+		
+	</section>
 </body>
 </html>
