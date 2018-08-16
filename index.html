@@ -24,7 +24,7 @@
 		</nav>
 		<section class="fuatures">
 			<h1 class="visually-hidden">Нердс</h1>
-			<h2 class="fuatures-item">Долго,дорого,скрупулезно.</h2>
+			<b class="fuatures-item">Долго,дорого,скрупулезно.</b>
 			<p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
 			<a href="#" class="button">Узнать больше</a>
 
@@ -35,7 +35,7 @@
 	</header>
 	<main  class="container">
 		<section>
-			<h2 class="services">Услуги</h2>
+			<h2 class="visually-hidden">Услуги</h2>
 			<ul class="services-list">
 				<li class="services-item">
 					<p class="services-item-img"><a href="#"><img src="img/services-1.jpg" alt="Веб-сайты" height="146" width="300"></a></p>
@@ -60,10 +60,10 @@
 		</section>
 		<section class="description">
 			<h2 class="visually-hidden">Что мы умеем?</h2>
-			<p>Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
+			<b class="description-preview">Мы — маленькая, но гордая дизайн-студия из Краснодара.</b>
 			<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
-			<ul class="order-list">
-				Выполняем заказы на разработку:
+			<ul class="description-order">
+				<p class="description-title">Выполняем заказы на разработку:</p>
 				<li>Веб-сайтов любой сложности</li>
 				<li>Мобильных приложений для iOS и Android</li>
 				<li>Слайдшоу и видео для корпоративных презентаций</li>
@@ -71,9 +71,9 @@
 		</section>
 		<section class="guarantees">
 			<h2 class="visually-hidden">Гарантии</h2>
-			<img src="main-nerds.jpg" alt="Nerds">
+			<img src="img/main-nerds.jpg" alt="Nerds" width="360" height="208">
 			<p>с 2004 года Любим точность во всем:</p>
-			<table >
+			<table class="guarantees-table">
 				<tr>
 					<th>146%</th>
 					<th>100%</th>
@@ -101,6 +101,18 @@
 				<img src="img/map.jpg" width="1440" height="416" alt="Офис компании по адресу ул.Большая Конюшенная 19/8, Санкт Петербург">
 			</p>
 		</section>
+		<section class="contacts">
+			<h2 class="visually-hidden">Контакты</h2>
+			<b>NЁRDS DESIGN STUDIO</b>
+			<p>
+				191186, Санкт-Петербург,<br>
+				ул.Б.Конюшенная, д. 19/8 <br>
+				тел. +7 (812) 275-75-75
+			</p>
+			<button class="button contacts-button" type="submit">
+				Напишите нам
+			</button>
+		</section>
 	</main>
 	<footer class="main-footer">
 		<div class="footer-social">
@@ -115,7 +127,7 @@
 	</footer>
 	<section class="modal modal-massage">
 		<h2>Напишите нам</h2>
-		<form action="https://echo.htmlacademy.ru" method="post">
+		<form class="login-form" action="https://echo.htmlacademy.ru" method="post">
 			<p>
 				<label class="visually-hidden" for="user-name">Ваше имя:</label>
 				<input class="name-icon-user" id="user-name" name="name" type="text" placeholder="Имя Фамилия">

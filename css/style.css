@@ -4,11 +4,28 @@ body {
 
 	font-family: "Roboto-Medium","Arial",sans-serif;
 	font-size: 16px;
-	line-height: 20px;
+	line-height: 24px;
 	font-weight: 500;
 	color: #000000;
 
 	background-color: #ffffff;
+}
+
+.button {
+	font: inherit;
+
+	text-align: center;
+	color: #ffffff;
+	vertical-align: middle;
+	text-transform: uppercase;
+	background-color: #fb565a;
+	border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+	background-color: #e74246;
 }
 
 a {
@@ -35,4 +52,139 @@ a {
 
 .site-navigation a:hover,
 .site-navigation a:focus,
-.user-navigation
+.user-navigation a:hover,
+.user-navigation a:focus {
+	color: #fb565a;
+}
+
+.fuatures-item {
+	font-size: 55px;
+}
+
+.services-list h2 {
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.services-list {
+	list-style: none;
+}
+
+.description-preview {
+	font-size: 45px;
+	line-height: 45px;
+}
+
+.description-order {
+	list-style: none;
+}
+
+.description-title {
+	text-transform: uppercase;
+}
+
+.guarantees-table th {
+	font-size: 45px;
+	line-height: 10px;
+}
+
+.guarantees-table td {
+	line-height: 18px;
+}
+
+.partners-list {
+	list-style: none;
+}
+.contacts {
+	color: #000000;
+
+	background-color: #ffffff;
+	background-image: url("img/contacts-pattern.jpg");
+	position: 0 0;
+	background-repeat: repeat;
+}
+.contacts p {
+	color: #666666;
+}
+
+.filter fieldset {
+	border: none;
+}
+
+.filter legend {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 600;
+
+	text-transform: uppercase;
+}
+
+.filter ul {
+	list-style: none;
+}
+
+.filter-button {
+	background-color: #eeeeee;
+	color: #000000;
+}
+
+.filter-input:hover + input,
+.filter-input:focus + input {
+	color: #6e6e6e;
+}
+
+.catalog ul {
+	list-style: none;
+}
+.sort a {
+	color: #000000;
+
+	text-transform: uppercase;
+}
+
+.sort a:hover {
+	color: #e9e9e9;
+}
+
+.footer-social b {
+	font-size: 36px;
+	line-height: 36px;
+}
+
+.footer-social p {
+	line-height: 22px;
+}
+
+.footer-social ul {
+	list-style: none;
+}
+
+.modal {
+	color: #000000;
+
+	background-color: #ffffff;
+	background-image: url("img/madal-pattern.jpg");
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+.modal h2 {
+	font-size: 42px;
+	line-height: 42px;
+}
+
+.login-form input[type="text"] {
+	font: inherit;
+	color: #000000;
+
+	background-color: #ffffff;
+	border: 2px solid #d7dcde;
+}
+
+.login-form input:focus {
+	border-color: #b4b9bb;
+}
+
+
+
+
